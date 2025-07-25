@@ -5,48 +5,191 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lindiwe Dube | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+   
+  <style>
+   
+    html {
+      scroll-behavior: smooth;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #00c6ff;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .projects-grid, .skills-list, .contact-form {
+      max-width: 900px;
+      margin: auto;
+    }
+    .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Lindiwe Dube</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  
+  <div class ="container">
+  <div class="center-content">
+    <header>
+      <h1>Lindiwe Dube</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Welcome! I am an IT student passionate about software development and cybersecurity.</p>
-  </section>
+    
+    <!-- Home Section -->
+    <section id="home" class="home-section page-wrapper">
+      <div class="intro-text">
+        <h1 style="color: black; font-weight: bold;">Hello, I'm Lindiwe Dube</h1>
+        <p style="color: black; font-weight: bold;">Building my future in tech, one skill at a time!</p>
+        <section class="social-links">
+          <a href="https://github.com/LindiweTema" target="_blank" style="margin: 0 15px; font-weight: bold;">
+            <img src="Github.jpeg" style="width: 20px; height: 20px;" /> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/lindiwe-dube-63b5051a2" target="_blank" style="margin: 0 15px; font-weight: bold;">
+            <img src="linkedin.jpeg" style="width: 20px; height: 20px;" /> LinkedIn
+          </a>
+          <a href="https://drive.google.com/file/d/1EUbR_O1TRMTVVjZ41gbXq1C8H6s8eIrh/view?usp=sharing" target="_blank" style="margin: 0 15px; font-weight: bold;">
+            <img src="resume.jpeg" style="width: 20px; height: 20px;" /> Download CV
+          </a>
+        </section>
+      </div>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming: Java, Python, JavaScript</li>
-      <li>Web Development: HTML, CSS, React</li>
-      <li>Cybersecurity fundamentals</li>
-    </ul>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <div class="profile-pic">
+          <img src="me.jpeg" alt="Lindiwe Dube" />
+        </div>
+        <div class="about-text">
+          <h2>Hello, I'm Lindiwe 👋</h2>
+          <p>
+            I'm a passionate and dedicated Information Technology student at North West University. My journey in tech started with curiosity about how software shapes the world, and since then I've committed myself to mastering programming languages like Java, Python, JavaScript. I have strong interest in cybersecurity, data analytics, software development, and everything in tech.
+            <br><br>
+            I thrive on challenges that allow me to apply critical thinking and creativity — whether it’s building an AI-powered healthcare chatbot or designing intuitive web apps. Beyond coding, I enjoy learning about emerging tech like AI and blockchain, and how they can transform industries. My vision is to become a skilled software engineer who creates impactful, secure solutions.
+          </p>
+          <blockquote>"Success is not for the lazy – I’m on a mission to achieve excellence."</blockquote>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Healthcare Chatbot</strong> - AI-powered chatbot to diagnose diseases.</li>
-      <li><strong>Portfolio Website</strong> - My personal portfolio site.</li>
-    </ul>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section about-section">
+      <div class="about-container">
+        <div class="skills-text about-text">
+          <h2>My Skills</h2>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:lindiwedube990@gmail.com">lindiwedube990@gmail.com</a></p>
-    <p>Phone: 0790703098</p>
-  </section>
+          <h3>Technical Skills</h3>
+          <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Cybersecurity Fundamentals</li>
+            <li>Git & Version Control</li>
+          </ul>
 
-  <footer>
-    <p>© 2025 Lindiwe Dube</p>
-  </footer>
+          <h3>Soft Skills</h3>
+          <ul class="skills-list">
+            <li>Problem Solving</li>
+            <li>Team Collaboration</li>
+            <li>Communication</li>
+            <li>Adaptability</li>
+          </ul>
+
+          <h3>Focus Skills</h3>
+          <ul class="skills-list">
+            <li>Time Management</li>
+            <li>Self-Motivation</li>
+            <li>Attention to Detail</li>
+            <li>Continuous Learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="Airplane.jpeg" alt="Java Project">
+          <h3>Java Project – SkyWings Flight Booking</h3>
+          <ul>
+            <li>Java Swing & NetBeans for GUI development</li>
+            <li>Flight search, booking, confirmation system</li>
+            <li>OOP & UML class diagrams applied</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <img src="Network.jpeg" alt="Cisco Networking Project">
+          <h3>Cisco Networking – VLAN Office Network</h3>
+          <ul>
+            <li>Designed secure VLAN setup in Packet Tracer</li>
+            <li>Routers, switches, ACLs, IP configuration</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <img src="Database.jpeg" alt="Database Project">
+          <h3>Database – ShopSmart Supermarket System</h3>
+          <ul>
+            <li>SQL + ER diagrams for data management</li>
+            <li>Customers, inventory, employees, suppliers</li>
+            <li>Normalization & referential integrity</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" style="background: url('queen.jpeg') center/cover no-repeat;">
+      <div class="contact-container">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+          <span>Email</span>
+          lindiwedube990@gmail.com
+
+          <span>Phone</span>
+          079 070 3098
+
+          <span>Location</span>
+          Vanderbijlpark, South Africa
+        </div>
+        <h3 style="color:#111; text-align:center;">
+          Want to connect, ask questions, or offer a role? Send me a message!
+        </h3>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Lindiwe Dube</p>
+    </footer>
+  </div>
+  </div>
 </body>
 </html>
+
+
+  
