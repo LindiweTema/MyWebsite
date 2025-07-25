@@ -90,7 +90,7 @@ footer {
 }
 .hero {
   height: 90vh;
-  background: url('office.jpeg') no-repeat center center/cover;
+  background: url('../image/office.jpeg') no-repeat center center/cover;
   color: white;
   display: flex;
   align-items: center;
@@ -148,7 +148,7 @@ footer {
 }
 
 .about-section {
-  background: url('about-bg.jpeg') no-repeat center center/cover;
+  background: url('../image/about-bg.jpeg') no-repeat center center/cover;
   padding: 60px 20px;
   color: white;
   border-radius: 12px;
@@ -211,7 +211,7 @@ footer {
 
 .projects-section {
   padding: 60px 20px;
-  background: url('dark.jpeg') no-repeat center center/cover;
+  background: url('../image/dark.jpeg') no-repeat center center/cover;
   color: white;
   text-align: center;
   position: relative;
@@ -380,7 +380,7 @@ nav a {
 }
 
 .home-section {
-  background-image: url('office.jpeg'); /* your pink tech image */
+  background-image: url('../image/office.jpeg'); /* your pink tech image */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -417,7 +417,7 @@ body {
   padding: 20px;
 }
 .skills-section {
-  background: url('pink.jpeg') no-repeat center center/cover;
+  background: url('../image/pink.jpeg') no-repeat center center/cover;
   padding: 60px 20px;
   color: white;
   border-radius: 12px;
@@ -440,7 +440,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url('office.jpeg') no-repeat center center/cover;
+  background: url('../image/office.jpeg') no-repeat center center/cover;
   color: white;
 }
 
@@ -452,7 +452,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('your-background.jpg'); /* or remove if not needed */
+  background-image: url('../image/dark.jpeg'); /* or remove if not needed */
   background-size: cover;
   background-position: center;
   color: white;
@@ -474,7 +474,7 @@ body {
   justify-content: center;  /* centers h1 and p vertically */
   align-items: center;      /* centers horizontally */
   text-align: center;
-  background: url('your-background.jpg') no-repeat center center/cover; /* optional */
+  background: url('../image/your-background.jpg') no-repeat center center/cover; /* optional */
   color: white;
   padding-bottom: 60px; /* space for social icons */
 }
@@ -513,7 +513,7 @@ body {
   text-align: center;
   padding: 0 20px 60px; /* horizontal padding + space at bottom for icons */
   box-sizing: border-box; /* include padding in width calculations */
-  background: url('your-background.jpg') no-repeat center center/cover; /* optional */
+  background: url('../image/your-background.jpg') no-repeat center center/cover; /* optional */
   color: white;
 }
 
@@ -616,7 +616,18 @@ body {
     transform: translateY(0);
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 .intro-text {
   animation: fadeInUp 1s ease forwards;
 }
@@ -753,4 +764,108 @@ body {
   min-height: 100vh;
 }
 
+.contact-section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  padding: 10px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-section {
+  background: url('queen.jpeg') center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  color: #000;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-info span {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e055a2;
+}
 
