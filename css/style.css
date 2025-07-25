@@ -474,7 +474,7 @@ body {
   justify-content: center;  /* centers h1 and p vertically */
   align-items: center;      /* centers horizontally */
   text-align: center;
-  background: url('../image/your-background.jpg') no-repeat center center/cover; /* optional */
+  background: url('../image/office.jpeg') no-repeat center center/cover; /* optional */
   color: white;
   padding-bottom: 60px; /* space for social icons */
 }
@@ -513,7 +513,7 @@ body {
   text-align: center;
   padding: 0 20px 60px; /* horizontal padding + space at bottom for icons */
   box-sizing: border-box; /* include padding in width calculations */
-  background: url('../image/your-background.jpg') no-repeat center center/cover; /* optional */
+  background: url('../image/office.jpeg') no-repeat center center/cover; /* optional */
   color: white;
 }
 
@@ -560,7 +560,7 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-  background: url('your-background.jpg') no-repeat center center/cover;
+  background: url('../image/office.jpeg') no-repeat center center/cover;
   padding-bottom: 60px; /* space for socials */
   box-sizing: border-box;
 }
@@ -801,7 +801,7 @@ body {
   cursor: pointer;
 }
 .contact-section {
-  background: url('queen.jpeg') center/cover no-repeat;
+  background: url('../image/queen.jpeg') center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   align-items: center;
